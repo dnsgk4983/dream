@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더드림앤컴퍼니</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    </button>
+                    <!-- 고스트버튼   -->
+                    <a href="#" class="navbar-brand">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <!-- 로고  -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav admin-nav">
+                        <li><a href="#">내정보보기</a></li>
+                        <li><a href="#">게시판</a></li>
+                        <li><a href="#">계약정보관리</a></li>
+                        <li><a href="#">내 성과조회</a></li>
+                        <li><a href="#">업무관리</a></li>
+                        <li><a href="#">성과조회(관리자)</a></li>
+                        <li><a href="#">시스템관리</a></li>
+                        <li><a href="#">사용자관리</a></li>
+                        <li><a href="#">자금관리</a></li>
+                    </ul>
+                    <ul class="nav navbar navbar-right admin-login">
+                        <li><a href="#">로그아웃</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav  -->
+    </header> 
+    <!-- header  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 admin-padding-03">
+                <h3>게시물 리스트</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 admin-padding-02">
+                <div class="search">
+                    <div class="search-text">
+                        <span class="search-title">검색창</span>
+                    </div>
+                    <div class="search-select">
+                        <select class="search-bg search-width media-width-100">
+                            <option>제목</option>
+                            <option>제목</option>
+                        </select>
+                    </div>
+                    <div class="search-search-box">
+                        <input type="search" class="search-bg select-box search-width media-width-100">
+                    </div>
+                    <div class="search-btn">
+                        <button class="search-width btn-border btn-bg1">버튼3</button>
+                        <button class="search-width btn-border btn-bg2">버튼4</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 num-list">
+                <div class="num-box">
+                    <span>1 / 1</span>
+                </div>
+                <div class="num-select">
+                    <select id="">
+                        <option>10줄 보기</option>
+                        <option>20줄 보기</option>
+                        <option>30줄 보기</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-striped text-center table-margin table-page">
+                    <thead>
+                      <tr class="table-title-center table-bg">
+                        <th><span class="num-up">▲</span> 번호<span class="num-down">▼</span></th>
+                        <th><span class="num-up">▲</span>제목<span class="num-down">▼</span></th>
+                        <th><span class="num-up">▲</span>작성일<span class="num-down">▼</span></th>
+                        <th class="table-title">내용</th>
+                        <th>게시기간</th>
+                        <th>게시물 활성화 등급</th>
+                        <th>최종작성/수정자</th>
+                        <th>공개여부</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+       <div class="row">
+        <div class="content-button">
+            <button class="btn">button01</button>
+            <button class="btn btn-primary">button02</button>
+            <button class="btn btn-success">button03</button>
+            <button class="btn btn-danger">button04</button>
+        </div>
+       </div>
+       <div class="row">
+           <div class="col-sm-12">
+            <nav aria-label="Page navigation navi-paging">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item"><a class="page-link" href="#">6</a></li>
+                  <li class="page-item"><a class="page-link" href="#">7</a></li>
+                  <li class="page-item"><a class="page-link" href="#">8</a></li>
+                  <li class="page-item"><a class="page-link" href="#">9</a></li>
+                  <li class="page-item"><a class="page-link" href="#">10</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+           </div>
+       </div>
+    </div>
+  
+</body>
+</html>

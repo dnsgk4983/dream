@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더드림앤컴퍼니</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/admin.css">
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    </button>
+                    <!-- 고스트버튼   -->
+                    <a href="#" class="navbar-brand">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </a>
+                </div>
+                <!-- 로고  -->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav admin-nav">
+                        <li><a href="#">내정보보기</a></li>
+                        <li><a href="#">게시판</a></li>
+                        <li><a href="#">계약정보관리</a></li>
+                        <li><a href="#">내 성과조회</a></li>
+                        <li><a href="#">업무관리</a></li>
+                        <li><a href="#">성과조회(관리자)</a></li>
+                        <li><a href="#">시스템관리</a></li>
+                        <li><a href="#">사용자관리</a></li>
+                        <li><a href="#">자금관리</a></li>
+                    </ul>
+                    <ul class="nav navbar navbar-right admin-login">
+                        <li><a href="#">로그아웃</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- nav  -->
+    </header> 
+    <!-- header  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 admin-padding-03">
+                <h3>게시물 리스트</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="card-new">
+                    <div class="card-title">
+                        <p>신규</p>
+                        <p>385,600</p>
+                        <p>3.48</p>
+                    </div>
+                    <div class="icon">
+                        <span class="xi-call"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card-new">
+                    <div class="card-title">
+                        <p>녹취</p>
+                        <p>385,600</p>
+                        <p>3.48</p>
+                    </div>
+                    <div class="icon">
+                        <span class="xi-call"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card-new">
+                    <div class="card-title">
+                        <p>운용</p>
+                        <p>385,600</p>
+                        <p>3.48</p>
+                    </div>
+                    <div class="icon">
+                        <span class="xi-call"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card-new">
+                    <div class="card-title">
+                        <p>만기중</p>
+                        <p>385,600</p>
+                        <p>3.48</p>
+                    </div>
+                    <div class="icon">
+                        <span class="xi-call"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card-new">
+                    <div class="card-title">
+                        <p>만기건</p>
+                        <p>385,600</p>
+                        <p>3.48</p>
+                    </div>
+                    <div class="icon">
+                        <span class="xi-call"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card-new">
+                    <div class="card-title">
+                        <p>예상건</p>
+                        <p>385,600</p>
+                        <p>3.48</p>
+                    </div>
+                    <div class="icon">
+                        <span class="xi-call"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table table-striped text-center table-margin table-page">
+                    <thead>
+                      <tr class="table-title-center table-bg">
+                        <th><span class="num-up">▲</span> 번호<span class="num-down">▼</span></th>
+                        <th><span class="num-up">▲</span>제목<span class="num-down">▼</span></th>
+                        <th><span class="num-up">▲</span>작성일<span class="num-down">▼</span></th>
+                        <th class="table-title">내용</th>
+                        <th>게시기간</th>
+                        <th>게시물 활성화 등급</th>
+                        <th>최종작성/수정자</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+      
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+            <div class="col-md-6">
+                <table class="table table-striped text-center table-margin table-page">
+                    <thead>
+                      <tr class="table-title-center table-bg">
+                        <th><span class="num-up">▲</span> 번호<span class="num-down">▼</span></th>
+                        <th><span class="num-up">▲</span>제목<span class="num-down">▼</span></th>
+                        <th><span class="num-up">▲</span>작성일<span class="num-down">▼</span></th>
+                        <th class="table-title">내용</th>
+                        <th>게시기간</th>
+                        <th>게시물 활성화 등급</th>
+                        <th>최종작성/수정자</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+      
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-striped text-center table-margin table-page">
+                    <thead>
+                      <tr class="table-title-center table-bg">
+                        <th><span class="num-up">▲</span> 번호<span class="num-down">▼</span></th>
+                        <th><span class="num-up">▲</span>제목<span class="num-down">▼</span></th>
+                        <th><span class="num-up">▲</span>작성일<span class="num-down">▼</span></th>
+                        <th class="table-title">내용</th>
+                        <th>게시기간</th>
+                        <th>게시물 활성화 등급</th>
+                        <th>최종작성/수정자</th>
+                        <th>공개여부</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2020-01-12</td>
+                        <td>게시물관련된내용</td>
+                        <td>2020-01-12 ~ 2020-01-12</td>
+                        <td>23</td>
+                        <td>2OCA3BDOA</td>
+                        <td>N</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
