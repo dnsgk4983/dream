@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body{
+    font-family: 'Noto Sans KR' !important;
+}
 .admin-nav li a{
 padding: 0;
 }
@@ -264,3 +268,38 @@ input[type=file]{
     -moz-box-shadow: 1px 1px 18px 1px rgba(0,0,0,0.1);
     box-shadow: 1px 1px 18px 1px rgba(0,0,0,0.1); */
     border-radius: 5px;
+}
+
+/* 1005 수정사항 */
+.nav > li > a{
+    font-weight: bold;
+}
+.admin-login > li > a{
+    border: 3px solid #fff;
+    border-radius: 15px;
+}
+label{
+    margin-left: 5px;
+}
+.table-wrapper{
+    height: 430px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.table.table-3{
+    height: 386px !important;
+}
+.table>thead>tr>th{
+    padding: 8px 12px;
+}
+
+.table td div{ 
+
+    overflow : hidden; 
+
+    white-space : nowrap; 
+
+    text-overflow : ellipsis; 
+
+    width : 150px;
+}
