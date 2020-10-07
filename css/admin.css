@@ -1,5 +1,13 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
 body{
+    font-size: 16px;
     font-family: 'Noto Sans KR' !important;
 }
 .admin-nav li a{
@@ -303,4 +311,92 @@ label{
     text-overflow : ellipsis; 
 
     width : 150px;
+}
+#error-page{
+    width: 100%;
+    height: 100%;
+    background: url(../assets/img/error/error-bg.png)no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.error-title{
+    width: 50%;
+    padding-top: 12%;
+    margin-left: 21.5%;
+    display: flex;
+
+    align-items: center;
+}
+.error-title > img{
+    vertical-align: middle;
+    width: 6%;
+    margin-right: 1%;
+}
+.error-title > h1{
+    font-size: 3em;
+    margin: 0;
+    font-weight: 400;
+    color: #5a69dd;
+}
+.error-sub{
+    width: 50%;
+    margin: 15px auto;
+}
+.error-sub p{
+    font-size: 1.3em;
+    color: #272727;
+    margin: 0;
+}
+
+.gh-button{
+    width: 50%;
+    margin: 0 auto;
+}
+.gh-button button{
+    width: 362px;
+    height: 71px;
+    background: #6b7cff;
+    color: #fff;
+    border: none;
+    font-size: 28px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #333;
+    margin-top: 10%;
+}
+@media(max-width: 1200px){
+    .error-title{
+        padding-top: 24%;
+    }
+    .error-title h1{
+        font-size: 2em;
+    }
+}
+@media(max-width:992px){
+    .error-title{
+        padding-top: 33%;
+    }
+    .error-title h1{
+        font-size: 1.25em;
+    }
+    .error-sub p{
+        font-size: 1em;
+    }
+    .gh-button button{
+        
+        height: 2em;
+        font-size: 1em;
+    }
+}
+@media(max-width: 768px){
+    .error-title{
+        padding-top: 40%;
+    }
+    .gh-button button{
+        width: 100%;
+    }
+}
+@media(max-width: 568px){
+    .error-title{
+        padding-top: 50%;
+    }
 }
