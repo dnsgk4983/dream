@@ -291,6 +291,8 @@ label{
     margin-left: 5px;
 }
 .table-wrapper{
+    max-width: 1140px;
+    min-width: 320px;
     height: 430px;
     overflow: auto;
     margin-bottom: 20px;
@@ -400,3 +402,22 @@ label{
         padding-top: 50%;
     }
 }
+#float--menu{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: #6476ff;
+    border-radius: 100%;
+    bottom: 15px;
+    left: 15px;
+    z-index: 1000;
+  }
+  .table-wrapper > table{
+      width: 1240px;
+  }
+  .table-wrapper .table-bg > th{
+      background: #272727;
+      position: sticky;
+      top: 0;
+  }
