@@ -10731,6 +10731,7 @@ input[type=tel]:focus .form-login{
 }
 
 .form-bg{
+  width: 100%;
   background: #060723;
   color:#fff;
   border:none;
