@@ -28,10 +28,6 @@ padding: 0;
 .admin-nav li:last-child{
     border: none;
 }
-.admin-login li{
-    padding: 0;
-    padding-top: 15px;
-}
 
 .padding-0{
     padding: 0;
@@ -283,7 +279,7 @@ input[type=file]{
 .nav > li > a{
     font-weight: bold;
 }
-.admin-login > li > a{
+.admin-login a{
     border: 3px solid #fff;
     border-radius: 15px;
 }
@@ -420,4 +416,19 @@ label{
       background: #272727;
       position: sticky;
       top: 0;
+  }
+
+  .admin--nav{
+      height: 75px;
+  }
+  .admin-login{
+      line-height: 75px;
+  }
+  .admin-login a{
+      padding: 3px 5px;
+      transition: all .3s;
+      text-decoration: none;
+  }
+  .admin-login:hover a{
+      background: #fff;
   }
